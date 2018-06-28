@@ -9,5 +9,4 @@ sudo apt-get update && sudo apt-get install -y nodejs yarn
 
 sudo chown -R memuller.memuller /usr/lib/node_modules
 
-yarn global add electron gulp-cli @angular/cli node-sass bower vue-cli flow-bin
-
+source ../node-packages.sh
