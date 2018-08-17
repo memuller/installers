@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo apt-get install -y build-essential curl wget git git-gui aptitude
+sudo apt-get install -y build-essential curl wget git git-gui aptitude software-properties-common xclip dconf-editor
 
-sudo apt-get install gcc g++ make default-jre
+sudo apt-get install gcc g++ make cmake default-jre
 
 
 sudo aptitude install -y bleachbit
