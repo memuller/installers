@@ -2,4 +2,4 @@
 
 source ./flathub.sh
 
-flatpak install -y flathub com.skype.client
+flatpak install -y flathub com.skype.Client
