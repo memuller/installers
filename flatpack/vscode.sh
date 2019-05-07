@@ -2,4 +2,4 @@
 
 source ./flathub.sh
 
-flatpak install -y flathub com.visualstudio.code
+flatpak install -y flathub com.visualstudio.code.oss

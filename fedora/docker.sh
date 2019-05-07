@@ -10,5 +10,8 @@ sudo dnf config-manager \
 
 sudo dnf install docker-ce docker-compose podman
 
+sudo groupadd docker
+sudo usermod -aG docker $USER
+
 sudo systemctl enable docker
 sudo systemctl start docker
