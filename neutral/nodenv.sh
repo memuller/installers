@@ -8,7 +8,7 @@ if [ ! -d "$HOME/.nodenv" ] ; then
 
   mkdir -p ~/.nodenv/plugins
   git clone https://github.com/nodenv/node-build.git ~/.nodenv/plugins/node-build
-  git clone https://github.com/nodenv/nodenv-aliases.git $(nodenv root)/plugins/nodenv-aliases
+  git clone https://github.com/nodenv/nodenv-aliases.git ~/.nodenv/plugins/nodenv-aliases
 
 # if already installed, upgrades
 else
